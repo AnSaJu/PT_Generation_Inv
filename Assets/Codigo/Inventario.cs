@@ -83,7 +83,7 @@ public class Inventario : MonoBehaviour
         for (int i = 0; i < numObjetos; i++)
         {
             // Configura el texto para mostrar el nombre y la cantidad del objeto
-            textoCantidad[i].text = inventario[i].nombre + " x" + inventario[i].cantidad;
+            textoCantidad[i].text = inventario[i].nombre + " x " + inventario[i].cantidad;
             imgCasilla[i].sprite = inventario[i].spriteProducto;
         }
        
@@ -112,7 +112,7 @@ public class Inventario : MonoBehaviour
                 inventario[j - 1] = inventario[j];
             }
             inventario[numObjetos - 1] = new InventarioObjeto();
-            textoCantidad[numObjetos - 1].text = "";
+            textoCantidad[numObjetos - 1].text = "Producto";
             imgCasilla[numObjetos - 1].sprite = null;
             numObjetos--;
             MostrarInventario();

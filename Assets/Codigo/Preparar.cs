@@ -54,27 +54,27 @@ public class Preparar : MonoBehaviour
         if(restaNumero == 0)
         {
             textoIngrediente1.text = "Manzana x " + cantidadManzana + " - " + textManzana;
-            textoIngrediente2.text = "Plato x" + cantidadPlato + " - " + textPlato;
-            textoIngrediente3.text = "Banano x" + cantidadBanano + " - " + textBanano;
-            textoIngrediente4.text = "Pan x" + cantidadPan + " - " + textPan;
+            textoIngrediente2.text = "Plato x " + cantidadPlato + " - " + textPlato;
+            textoIngrediente3.text = "Banano x " + cantidadBanano + " - " + textBanano;
+            textoIngrediente4.text = "Pan x " + cantidadPan + " - " + textPan;
         }
 
         if (restaNumero == 1)
         {
             
             textoIngrediente1.text = "Queso x " + cantidadQueso + " - " + textQueso;
-            textoIngrediente2.text = "Manzana x" + cantidadManzana + " - " + textManzana;
-            textoIngrediente3.text = "Chocholate x" + cantidadChocolate + " - " + textChocolate;
-            textoIngrediente4.text = "Plato x" + cantidadPlato + " - " + textPlato;
+            textoIngrediente2.text = "Manzana x " + cantidadManzana + " - " + textManzana;
+            textoIngrediente3.text = "Chocholate x " + cantidadChocolate + " - " + textChocolate;
+            textoIngrediente4.text = "Plato x " + cantidadPlato + " - " + textPlato;
         }
 
         if (restaNumero == 2)
         {
 
             textoIngrediente1.text = "Banano x " + cantidadBanano + " - " + textBanano;
-            textoIngrediente2.text = "Plato x" + cantidadPlato + " - " + textPlato;
-            textoIngrediente3.text = "Queso x" + cantidadQueso + " - " + textQueso;
-            textoIngrediente4.text = "Chocolate x" + cantidadChocolate + " - " + textChocolate;
+            textoIngrediente2.text = "Plato x " + cantidadPlato + " - " + textPlato;
+            textoIngrediente3.text = "Queso x " + cantidadQueso + " - " + textQueso;
+            textoIngrediente4.text = "Chocolate x " + cantidadChocolate + " - " + textChocolate;
         }
     }
 
